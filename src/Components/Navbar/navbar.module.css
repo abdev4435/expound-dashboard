@@ -1,0 +1,67 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #11334e;
+  padding: 5px 20px;
+  color: #fff;  
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.right {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brandName{
+  font-size: 20px;
+  font-weight: 500;
+}
+.menuIcon {
+  width: 20px;
+  height: auto;
+}
+.searchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.searchIcon {
+  width: 20px;
+  height: auto;
+}
+.navIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.navBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.navIcon {
+  width: 20px;
+  height: auto;
+}
+.profileBtn {
+  background: none;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.profileIcon {
+  width: 40px;
+  height: 40px;
+}

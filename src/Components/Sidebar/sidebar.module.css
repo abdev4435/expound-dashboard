@@ -1,0 +1,23 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 0px 15px;
+  border-right: 2px solid lightgray;
+  min-height: 95vh;
+}
+.sidebarIcon {
+  width: 30px;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
+.sidebarBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+}

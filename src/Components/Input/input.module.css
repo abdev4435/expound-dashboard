@@ -1,0 +1,19 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.label {
+  font-weight: 500;
+}
+.input {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  min-width: 200px;
+}
+.input::placeholder {
+  color: gray;
+  font-size: 14px;
+}

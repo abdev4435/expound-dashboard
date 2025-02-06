@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 5px;
+  padding: 5px 10px;
+  border-bottom: 2px solid lightgray;
+}
+.due {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding: 10px;
+}
+.col {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  color: #737373;
+}
+.col span:first-child {
+  font-weight: 500;
+  color: #000;
+}

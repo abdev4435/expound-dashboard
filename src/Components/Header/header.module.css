@@ -1,0 +1,72 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.iconContainer {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+  gap: 20px;
+}
+.headingBtns {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.headingBtnsLeft {
+  display: flex;
+  gap: 10px;
+}
+.headerIcons {
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+}
+.doneBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  background: #0F9B27;
+  border: none;
+}
+.headingBtnsIcon {
+  height: 20px;
+  width: auto;
+}
+.nurturingBtn {
+  background:#FFE9D2;
+  color: #F8992C;
+  padding: 5px 15px;
+  font-weight: 500;
+  border: none;
+}
+.convertBtn {
+  background:#DBDBDB;
+  color: #737373;
+  padding: 5px 15px;
+  font-weight: 500;
+  border: none;
+}
+.markConvertedBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 5px;
+  background: #11334E;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+  border-bottom: 1px solid lightgray;
+}
+.tabBtn {
+  background: transparent;
+  border: none;
+  color: #737373;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.activeTab {
+  color:#11334E;
+  border-bottom: 3px solid #11334E;
+}

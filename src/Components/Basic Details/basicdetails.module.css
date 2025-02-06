@@ -1,0 +1,31 @@
+.userDetails {
+  display: flex;
+  justify-content:start;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+.addressDetailsHeading {
+  font-size: 12px;
+  padding: 10px;
+}
+.addressDetails {
+  display: flex;
+  justify-content:start;
+  padding: 10px;
+}
+.detailsCol {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  flex: 1;
+}
+.detailsHeading {
+  display: flex;
+  justify-self: start;
+  font-size: 16px;
+  font-weight: 600;
+}
+.detail {
+  font-size: 14px;
+  color: #737373;
+}

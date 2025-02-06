@@ -1,0 +1,78 @@
+.container {
+  margin: 0;
+  padding: 0;
+  border-right: 2px solid #11334e
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.Btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0px;
+}
+.actionBtn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  padding: 10px;
+  min-width: 150px;
+  background: transparent;
+  cursor: pointer;
+  border: 2px solid #737373;
+  border-radius: 100px;
+}
+.activeActionBtn {
+  color: #0f9b27;
+  border-color: #0f9b27;
+}
+.actionBtn img{
+  display: flex;
+  justify-content: start;
+  align-self: flex-start;
+}
+
+.formRow {
+  display: flex;
+  gap: 100px;
+  justify-content: start;
+}
+.muiField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 250px;
+}
+.muiLabel {
+  font-weight: 500;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+}
+.description textarea {
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+.submit {
+  display: flex;
+  justify-content: end;
+}
+.submitBtn {
+  background: #11334e;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 15px;
+  border: none;
+}
